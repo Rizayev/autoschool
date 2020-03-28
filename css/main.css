@@ -1,0 +1,536 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body,html {
+    overflow-x: hidden;
+}
+body {
+    background: #fff;
+}
+.btn-orange {
+    /* Style for "Прямоуголь" */
+    width: 250px;
+    box-shadow: 3px -1px 8px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: none;
+    background-color: #e85121;
+    padding: 12px 0;
+    padding-top: 7px;
+    font-family: "Segoe UI";
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    /* Text style for "Начать обу" */
+    letter-spacing: 0.31px;
+    margin-top: 10px;
+    outline: none !important;
+}
+.btn-orange:hover{
+    background-color: #e85121;
+    color: #fff;
+}
+.btn-orange.focus, .btn-orange:focus {
+    box-shadow: 0 0 0 0.2rem rgb(232, 80, 34);
+}
+.modal-body .btn-orange {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.try-free {
+    /*color: #e85121;*/
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Segoe UI";
+    letter-spacing: 0.05px;
+    display: block;
+    margin-top: 10px;
+}
+.phone-icon{
+    position: relative;
+    top: -3px;
+    right: -5px;
+}
+.top-phone {
+    color: #000000;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.top-phone a {
+    color: #000;
+    text-decoration: none;
+}
+.teaching-p {
+    border-radius: 67px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    text-align: center;
+    color: #515151;
+    font-family: Caveat;
+    font-size: 36px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: #bcbcbc;
+    background-image: linear-gradient(to bottom, #818181 0%, #c5c5c5 87%, #c5c5c5 100%);
+}
+
+.header {
+    margin-top:20px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.p-h {
+    text-shadow: 9px -3px 8px rgba(0, 0, 0, 0.15);
+    color: #e85122;
+    font-size: 92px;
+    font-weight: 400;
+    letter-spacing: 1.53px;
+    margin-top: 60px;
+    font-family: 'd_garagegothicregular';
+}
+.pr-light {
+    text-align: right;
+}
+.hasttags {
+    margin-top: 20px;
+}
+.hashtag {
+    color: #e85121;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 300;
+    /* Text style for "#, категор" */
+    letter-spacing: 0.3px;
+}
+
+.houses {
+    background: url("../img/footer_bg.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 167px;
+}
+section.price {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.price .btn-orange {
+    width: auto;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+.certs {
+    padding: 30px 0;
+    padding-top: 0;
+    background-color: #fff7f7;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); 
+}
+.certs .item img {
+    max-width: 70%;
+}
+.certs-h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.video{
+    padding: 30px 0;
+    background-color: #fff7f7;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+.h2-header {
+    text-align: center; 
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.callback {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #e85122;
+    border-color: #e85122;
+}
+.callback:hover{
+    background: #e85122;
+    border-color: #e85122;
+}
+.callback.focus, .callback:focus {
+    box-shadow: 0 0 0 0.2rem rgb(232, 80, 34);
+}
+
+.cabinets img {
+    max-width: 100%;
+}
+.cabinets h2 {
+    padding-top: 30px;
+}
+
+.cars {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.cars-h2 {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+/*review*/
+.reviews {
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 50px 0;
+    padding-bottom: 0;
+}
+.block-items {
+    cursor: default;
+    padding: 25px 0;
+}
+
+.inner-testimonial {
+    text-align: center;
+    /*background-color: #fff;*/
+}
+
+.inner-testimonial > img{
+    max-width: 128px;
+    margin:0 auto 15px;
+    -webkit-transition:all 1.3s linear;
+    transition:all 1.3s linear;
+}
+
+/*Данные классы используются только в активном
+пункте слайдера, который сейчас виден*/
+.block-items > .owl-item.active .inner-testimonial > img{
+    -webkit-transition:all 1.3s linear;
+    transition:all 1.3s linear;
+}
+
+.block-items > .owl-item.active .inner-testimonial > img.full-opacity {
+    opacity:1;
+    -webkit-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+/*review*/
+.video,.cabinets, .cars,.certs,.reviews {
+    background: #fff;
+    background-image: none;
+}
+.address{
+    font-size: 18px;
+    font-weight: 100;
+}
+.address a {
+    font-weight: 400;
+}
+.map .col {
+    padding: 0 !important
+}
+.map h2{
+    text-align: center;
+}
+.map .address {
+    text-align: center;
+}
+#gal-cars,#gal-study {
+    display: none;
+}
+
+.features img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.features h3 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+img.img1d {
+    width: 300px;
+}
+img.img3d {
+    /*width: 300px;*/
+}
+.show-more {
+    color: #007bff !important;
+    text-decoration: underline;
+}
+.show-more + span.more{
+    display: none;
+}
+.we-offer h3 {
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.we-offer img {
+    width: auto;
+    max-width: 100%;
+}
+.btn {
+    box-shadow: 3px -1px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.cab-gal > .row {
+    margin-top: 15px;
+}
+.price-pro {
+    font-size: 24px;
+}
+.cab-gal > div:first-child img {
+    min-height: 233px;
+}
+
+.study-mobile {
+    display: none;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 1024px) {
+    .teaching-p {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .try-free {
+        font-size: 18px;
+    }
+    .btn-orange {
+        width: 100%;
+        font-size: 22px;
+    }
+    .p-h {
+        font-size: 76px;
+    }
+}
+@media only screen and (max-width : 992px) {
+    .teaching-p {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .try-free {
+        font-size: 14px;
+    }
+    .top-phone {
+        font-size: 14px;
+    }
+    .btn-orange {
+        font-size: 16px;
+    }
+    .p-h {
+        font-size: 54px;
+    }
+    .logo {
+        width: 100%;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .study-mobile {
+        display: block;
+    }
+    .study-desktop{
+        display: none;
+    }
+    .phone-icon {
+        position: static;
+        text-align: center;
+    }
+    .top-phone {
+        text-align: center;
+    }
+    .btn-orange {
+        display: block;
+        margin: 0 auto;
+        font-size: 16px;
+        width: 100%;
+    }
+    .top-phone {
+        font-size: 14px;
+    }
+    .phone-icon {
+        position: relative;
+        right: 0px;
+        width: 20px;
+        margin-bottom: 0;
+    }
+    .try-free {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .teaching-p {
+        margin-top: 20px;
+    }
+    .header {
+        margin-top: 0;
+    }
+    .p-h {
+        margin: 0;
+        font-size: 48px;
+        text-align: center;
+    }
+    .logo {
+        width: 80%;
+    }
+    .hst {
+        display: none;
+    }
+    .try-free {
+        text-align: center;
+    }
+    .adds {
+        text-align: center;
+    }
+    .adds h2 {
+        font-size: 18px;
+    }
+    .adds .col{
+        flex-basis: unset;
+    }
+    .about-us p,.price p {
+        padding: 10px;
+    }
+    .certs-h2,.h2-header,.price h2,h2.h2-header {
+        font-size: 24px;
+    }
+    .callback {
+        font-size: 18px;
+    }
+    .cabinets h2 {
+        padding-top: 0;
+    }
+    .cab-gal > .row {
+        margin-top: 0;
+    }
+    .price .btn-orange {
+        display: block;
+        margin: 20px auto;
+    }
+    .price-pro {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .features.we-offer {
+        margin-top: 30px;
+    }
+    .features .row > div{
+        margin-bottom: 20px;
+    }
+    .cab-gal > img {
+        display: block;
+        margin: 0 auto;
+    }
+    .certs .item img {
+        margin: 0 auto;
+    }
+    .teaching-p {
+        font-size: 24px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .cabinets .images > div{
+        margin-bottom: 20px;
+    }
+    .cabinets img {
+        width: 100%;
+    }
+    .study-mobile {
+        display: block;
+    }
+    .study-desktop{
+        display: none;
+    }
+    .phone-icon {
+        position: static;
+        text-align: center;
+    }
+    .top-phone {
+        text-align: center;
+    }
+    .btn-orange {
+        display: block;
+        margin: 0 auto;
+    }
+    .teaching-p {
+        margin-top: 20px;
+    }
+    .header {
+        margin-top: 0;
+    }
+    .p-h {
+        margin: 0;
+        font-size: 48px;
+        text-align: center;
+    }
+    .logo {
+        width: 80%;
+    }
+    .hst {
+        display: none;
+    }
+    .try-free {
+        text-align: center;
+    }
+    .adds {
+        text-align: center;
+    }
+    .adds h2 {
+        font-size: 18px;
+    }
+    .adds .col{
+        flex-basis: unset;
+    }
+    .about-us p,.price p {
+        padding: 10px;
+    }
+    .certs-h2,.h2-header,.price h2,h2.h2-header {
+        font-size: 24px;
+    }
+    .callback {
+        font-size: 18px;
+    }
+    .cabinets h2 {
+        padding-top: 0;
+    }
+    .cab-gal > .row {
+        margin-top: 0;
+    }
+    .price .btn-orange {
+        display: block;
+        margin: 20px auto;
+    }
+    .price-pro {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .features.we-offer {
+        margin-top: 30px;
+    }
+    .features .row > div{
+        margin-bottom: 20px;
+    }
+    .cab-gal > img {
+        display: block;
+        margin: 0 auto;
+    }
+    .certs .item img {
+        margin: 0 auto;
+    }
+}
